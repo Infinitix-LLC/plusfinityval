@@ -39603,51 +39603,47 @@ f.pN(B.aj)
 f.lK(0.4)}return A.R(null,r)}})
 return A.S($async$aT,r)},
 q5(a,b){return this.a8c(a,b)},
-a8c(a,b){var s=0,r=A.T(t.M0),q,p=this,o,n,m,l,k,j,i,h,g,f
+a8c(a,b){var s=0,r=A.T(t.M0),q,p=this,o,n,m,l,k,j,i,h,g
 var $async$q5=A.U(function(c,d){if(c===1)return A.Q(d,r)
-while(true)switch(s){case 0:g=A.b([],t.u9)
-f=A.b([],t.mo)
+while(true)switch(s){case 0:h=A.b([],t.u9)
+g=A.b([],t.mo)
 o=t.H,n=b*50,m=n/2,l=-3
 case 3:if(!(l<=3)){s=5
 break}k=a.Qk(l).b
-if(!isNaN(k))j=k===0?1/k<0:k<0
-else j=!0
-if(j){s=4
-break}i=new A.lJ(n,k,B.i,B.aj,B.aO)
-i.hA(3.141592653589793)
-i.x=new A.e_(l*50+m,k/2,0)
-k=i.a
+if(isNaN(k)){s=4
+break}j=new A.lJ(n,k,B.i,B.aj,B.aO)
+j.hA(3.141592653589793)
+j.x=new A.e_(l*50+m,k/2,0)
+k=j.a
 if(k!=null)k.Z()
-i.rL(0.2)
-i.xT(0.2)
-h=p.nB(i,B.b9)
+j.rL(0.2)
+j.xT(0.2)
+i=p.nB(j,B.b9)
 s=6
 return A.O(A.d4(B.aA,null,o),$async$q5)
-case 6:f.push(h)
-g.push(i)
+case 6:g.push(i)
+h.push(j)
 case 4:l+=b
 s=3
 break
 case 5:s=7
-return A.O(A.io(f,o),$async$q5)
-case 7:q=g
+return A.O(A.io(g,o),$async$q5)
+case 7:q=h
 s=1
 break
 case 1:return A.R(q,r)}})
 return A.S($async$q5,r)},
-Bm(a,b){var s,r,q,p,o,n,m,l=A.b([],t.u9)
+Bm(a,b){var s,r,q,p,o,n,m=A.b([],t.u9)
 for(s=this.a,r=b*50,q=r/2,p=-3;p<=3;p+=b){o=a.Qk(p).b
-if(!isNaN(o))n=o===0?1/o<0:o<0
-else n=!0
-if(n)continue
-m=new A.lJ(r,o,B.i,B.aj,B.aO)
-m.x=new A.e_(p*50+q,o/2,0)
-m.rL(0.2)
-m.xT(0.2)
-m.a=this
-s.push(m)
+if(isNaN(o))continue
+n=new A.lJ(r,o,B.i,B.aj,B.aO)
+n.x=new A.e_(p*50+q,o/2,0)
+n.rL(0.2)
+n.xT(0.2)
+n.a=this
+s.push(n)
 this.Z()
-l.push(m)}return l}}
+m.push(n)}return m}}
 A.Wp.prototype={
 $1(a){return this.a.w.$1(a)},
 $S:1}
