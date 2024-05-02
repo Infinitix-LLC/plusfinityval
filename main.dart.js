@@ -39648,7 +39648,7 @@ A.Wp.prototype={
 $1(a){return this.a.w.$1(a)},
 $S:1}
 A.EJ.prototype={
-O(a){return new A.uH(B.G4,"Flutter Demo",A.xc(B.af,A.aoj(B.af,B.FK),!0),null)}}
+O(a){return new A.uH(B.G4,"Plusfinity Fanim",A.xc(B.af,A.aoj(B.af,B.FK),!0),null)}}
 A.uT.prototype={
 ae(){return new A.L_(new A.H8(new A.bX("\\int_{-a}^{a}sin(x)+2dx",B.jt,B.b0),$.ae()),B.k)}}
 A.L_.prototype={
