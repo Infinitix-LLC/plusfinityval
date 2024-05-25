@@ -31169,6 +31169,7 @@ material_color_utilities
    limitations under the License.
 
 --------------------------------------------------------------------------------
+path_drawing
 path_parsing
 
 Copyright (c) 2018 Dan Field
